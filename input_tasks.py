@@ -23,7 +23,7 @@ age = int(input())
 print("How tall are you (in metres)?")
 high = float(input())
 print("How much do you weigh (in kilograms)?")
-weigh = int(input())
+weigh = int(input()
 
 bmi = 70/(1.80**2)
 print(f"{name} you are {age} old and your bmi is {bmi}.")
