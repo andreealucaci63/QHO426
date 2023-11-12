@@ -57,3 +57,32 @@ elif num1 > num2:
     print("The second number is the smallest!")
 else:
     print("Both are equal!")
+
+# Counter task
+# Ask the user to entry three numbers, one number at the time
+num1 = int(input("Please enter the first whole number"))
+num2 = int(input("Please enter the second whole number"))
+num3 = int(input("Please enter the first whole number"))
+# Count even and odd numbers
+count_even = 0
+count_odd = 0
+num1_reminder = num1 % 2
+num2_reminder = num2 % 2
+num3_reminder = num3 % 2
+
+if num1_reminder == 0:
+    count_even += 1
+else:
+    count_odd += 1
+
+if num2_reminder == 0:
+    count_even += 1
+else:
+    count_odd += 1
+
+if num3_reminder == 0:
+    count_even += 1
+else:
+    count_odd += 1
+
+print(f"There are {count_even} even numbers and {count_odd} odd numbers.")
