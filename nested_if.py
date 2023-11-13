@@ -30,3 +30,35 @@ if book == "soft":
 else:
     print("Books with hard covers can be more expensive!")
 
+# Multiple nested decisions task.
+# You are looking for your phone... It was literally in your hand a second ago!
+# Ask the user were to look.
+print("Where should I look?")
+phone = input()
+
+if phone == "in the bedroom":
+    print("Where in the bedroom should I look?")
+    in_the_bedroom = input()
+    if in_the_bedroom == "under the bed":
+        print("Found some shoes but no phone")
+    else:
+        print("Found some mess but no phone.")
+
+if phone == "in the bathroom":
+    print("Where in the bathroom should I look?")
+    in_the_bathroom = input()
+    if in_the_bathroom == " in the bathtub":
+        print("Found a rubber duck but no phone.")
+    else:
+        print("Found bathroom stuff but no phone.")
+
+if phone == "in the living room":
+    print("Where in the living room should I look?")
+    in_the_living_room = input()
+    if in_the_living_room == "on the table":
+        print("Yes! I found my phone!")
+    else:
+        print("Found some stuff but no phone.")
+
+else:
+    print("I do not know where that is but I will keep looking.")
